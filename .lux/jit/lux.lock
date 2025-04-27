@@ -1,0 +1,47 @@
+{
+  "version": "1.0.0",
+  "rocks": {
+    "81577c7d1124199cec18c88f9b8e8ded8ee882d981a6c195a7b86a08cb92d7d0": {
+      "name": "test package",
+      "version": "0.1.0-1",
+      "pinned": false,
+      "opt": false,
+      "dependencies": [
+        "d528cd52981564259b873ae3f972f48a19522d775240465725a6434109336b92"
+      ],
+      "constraint": null,
+      "binaries": [],
+      "source": "rockspec+\nrockspec_format = \"3.0\"\npackage = \"test package\"\nversion = \"0.1.0-1\"\n\ndescription = {\nsummary = \"simple test pkg\",\nlicense = \"GPL-3.0\",\nmaintainer = \"Cootshk\",\nlabels = {\n\"test\",\n},\n}\n\ndependencies = {\n\"lua >=5.1\",\n\"argparse ==0.7.1\",\n}\n\nbuild = {\ntype = \"builtin\",\n}",
+      "source_url": {
+        "type": "file",
+        "path": "/home/hkaz0/Documents/Code/Lux"
+      },
+      "hashes": {
+        "rockspec": "sha256-JE1vWqfWuOxCyrnBpDkzMvD+AAou7qAtMpgvx2FoPB4=",
+        "source": "sha256-wWCdTWuFonRnc9KSmtvYcyHgeHdGATFL0coafViNkRk="
+      }
+    },
+    "d528cd52981564259b873ae3f972f48a19522d775240465725a6434109336b92": {
+      "name": "argparse",
+      "version": "0.7.1-1",
+      "pinned": false,
+      "opt": false,
+      "dependencies": [],
+      "constraint": "==0.7.1",
+      "binaries": [],
+      "source": "luarocks_rockspec+https://luarocks.org/",
+      "source_url": {
+        "type": "url",
+        "url": "https://github.com/luarocks/argparse/archive/0.7.1.zip"
+      },
+      "hashes": {
+        "rockspec": "sha256-6EUIYsWhm29xlL8arP/3DQoRj/1CYWxs/J8+gz9T0YQ=",
+        "source": "sha256-AJ8n6HTxqHPeQd0NKHiyQLzZ63+ebDsO1uP+0f0vYUE="
+      }
+    }
+  },
+  "entrypoints": [
+    "d528cd52981564259b873ae3f972f48a19522d775240465725a6434109336b92",
+    "81577c7d1124199cec18c88f9b8e8ded8ee882d981a6c195a7b86a08cb92d7d0"
+  ]
+}
