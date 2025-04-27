@@ -18,7 +18,7 @@
     # devShells = lux.devShells;
     devShells.x86_64-linux.lux = lux.devShells.x86_64-linux.default;
     devShells.x86_64-linux.default = pkgs.mkShell {
-      name = "felixhub devshell";
+      name = "lux test devshell";
       buildInputs = [
         lux.packages.x86_64-linux.default
         pkgs.luajit
